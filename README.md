@@ -34,6 +34,19 @@ COMMANDS :
    > AWK command : awk 'pattern { action }' filename
    > Example : awk '{ print }' file.txt
 
+7. GREP : The grep command in Linux is used to search for a specific pattern or string in files or output. It stands for "Global Regular Expression Print".
+   > GREP command : grep [options] pattern [file...]
+   > Example : grep "error" logfile.txt
+
+8. -e : The -e option in Linux commands has different meanings depending on the context. Most commonly:
+    > -e command : grep -e "pattern1" -e "pattern2" file.txt
+                   echo -e "Line1\nLine2"
+    > Example : grep -e "error" -e "fail" logfile.txt
+                echo -e "Hello\nWorld"
+9. DATE : The date command is used to display or set the system date and time.
+   > DATE command : date "+%Y-%m-%d %H:%M:%S"
+
+
 
 
    
